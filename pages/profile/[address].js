@@ -68,11 +68,11 @@ export default function Profile({ address }) {
 
           {/* Etherscan link */}
           <a
-            href={`https://bscscan.com/address/${address}`}
+            href={`https://etherscan.io/address/${address}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            BSCScan
+            Etherscan
           </a>
         </div>
       </div>
